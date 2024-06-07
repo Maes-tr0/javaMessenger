@@ -1,0 +1,47 @@
+.anchorPane {
+    -fx-background-color: linear-gradient(to bottom right, #f2f2f2, #bfbbbf);
+    -fx-padding: 20px;
+    -fx-alignment: center;
+}
+
+.label_h1 {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #303740;
+}
+
+.label_h3 {
+    -fx-font-size: 14px;
+    -fx-text-fill: #454e59;
+}
+
+.hyperlink {
+    -fx-text-fill: #007bff;
+    -fx-font-size: 14px;
+    -fx-focus-color: transparent;
+}
+
+.text-field {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px;
+}
+
+.text-field:focused {
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+}
+
+.fixed-width {
+    -fx-pref-width: 250px;
+}
+
+.button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px 30px;
+    -fx-cursor: hand;
+}

@@ -1,0 +1,80 @@
+/* Загальний стиль для AnchorPane */
+.anchorPane {
+    -fx-background-color: #303740;
+    -fx-padding: 10px;
+}
+
+/* Стиль для VBox (лівий та правий панелі) */
+.left-panel {
+    -fx-background-color: #272D40;
+}
+
+.right-panel {
+    -fx-background-color: #272D40;
+}
+
+/* Стиль для Label (панельні заголовки) */
+.panel-label {
+    -fx-text-fill: #F2F2F2;
+}
+
+/* Стиль для центральної панелі */
+.center-panel {
+    -fx-background-color: #303740;
+}
+
+.center-label {
+    -fx-text-fill: #F2F2F2;
+}
+
+/* Стиль для ListView */
+.list-view {
+    -fx-background-color: #363F59;
+    -fx-border-color: #363F59;
+    -fx-text-fill: #F2F2F2;
+}
+
+/* Стиль для TextArea (вікно чату) */
+.chat-area {
+    -fx-background-color: #454E59;
+    -fx-border-color: #454E59;
+    -fx-text-fill: #000000; /* Чорний колір тексту */
+    -fx-padding: 10px;
+}
+
+/* Стиль для TextField (поле вводу повідомлення) */
+.text-field {
+    -fx-background-color: #6A7173;
+    -fx-border-color: #6A7173;
+    -fx-text-fill: #F2F2F2;
+    -fx-padding: 10px;
+    -fx-prompt-text-fill: #BFBBBF;
+}
+
+/* Стиль для Button (кнопка відправки повідомлення) */
+.send-button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: #F2F2F2;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+}
+
+/* Стиль для ScrollPane */
+.scroll-pane {
+    -fx-background-color: #303740;
+}
+
+/* Стиль для вибраного елемента ListView */
+.list-view .list-cell:selected {
+    -fx-background-color: #007bff;
+    -fx-text-fill: #F2F2F2;
+}
+
+/* Стиль для ScrollBar */
+.scroll-bar {
+    -fx-background-color: #454E59;
+    -fx-border-color: #454E59;
+    -fx-padding: 10px;
+}
